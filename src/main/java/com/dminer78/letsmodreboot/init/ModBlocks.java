@@ -14,6 +14,8 @@ public class ModBlocks {
     public static final BlockLMRB spiderBlock = new BlockSpider();
     public static final BlockLMRB tearBlock = new BlockTear();
     public static final BlockLMRB blazerodBlock = new BlockBlazeRod();
+    public static final BlockLMRB magmacreamBlock = new BlockMagmaCream();
+    public static final BlockLMRB leatherBlock = new BlockLeather();
 
     public static void init() {
         GameRegistry.registerBlock(flintBlock, Names.Blocks.FLINT_BLOCK);
@@ -23,5 +25,7 @@ public class ModBlocks {
         GameRegistry.registerBlock(spiderBlock, Names.Blocks.SPIDER_BLOCK);
         GameRegistry.registerBlock(tearBlock, Names.Blocks.TEAR_BLOCK);
         GameRegistry.registerBlock(blazerodBlock, Names.Blocks.BLAZEROD_BLOCK);
+        GameRegistry.registerBlock(magmacreamBlock, Names.Blocks.MAGMACREAM_BLOCK);
+        GameRegistry.registerBlock(leatherBlock, Names.Blocks.LEATHER_BLOCK);
     }
 }

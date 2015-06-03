@@ -7,6 +7,7 @@ import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.InputEvent;
 
 public class KeyInputEventHandler {
+    /*
     private static Key getPressedKeybinding() {
         if (Keybindings.charge.isPressed()) {
             return Key.CHARGE;
@@ -21,4 +22,5 @@ public class KeyInputEventHandler {
     public void handleKeyInputEvent(InputEvent.KeyInputEvent event) {
         LogHelper.info(getPressedKeybinding());
     }
+    */
 }

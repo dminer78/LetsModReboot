@@ -13,5 +13,7 @@ public final class Names {
         public static final String SPIDER_BLOCK = "spiderBlock";
         public static final String TEAR_BLOCK = "tearBlock";
         public static final String BLAZEROD_BLOCK = "blazerodBlock";
+        public static final String MAGMACREAM_BLOCK = "magmacreamBlock";
+        public static final String LEATHER_BLOCK = "leatherBlock";
     }
 }

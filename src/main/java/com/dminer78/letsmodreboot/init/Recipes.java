@@ -15,6 +15,11 @@ public class Recipes {
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.spiderBlock), "sss", "sss", "sss", 's', Items.spider_eye));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.tearBlock), "sss", "sss", "sss", 's', Items.ghast_tear));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.blazerodBlock), "sss", "sss", "sss", 's', Items.blaze_rod));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.magmacreamBlock), "sss", "sss", "sss", 's', Items.magma_cream));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.leatherBlock), "sss", "sss", "sss", 's', Items.leather));
+
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.leatherBlock), "sss", "sss", "sss", 's', Items.leather));
+
 
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.flint, 9), ModBlocks.flintBlock));
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.rotten_flesh, 9), ModBlocks.fleshBlock));
@@ -23,5 +28,7 @@ public class Recipes {
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.spider_eye, 9), ModBlocks.spiderBlock));
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.ghast_tear, 9), ModBlocks.tearBlock));
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.blaze_rod, 9), ModBlocks.blazerodBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.magma_cream, 9), ModBlocks.magmacreamBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.leather, 9), ModBlocks.leatherBlock));
     }
 }
