@@ -1,6 +1,5 @@
 package com.dminer78.letsmodreboot;
 
-import com.dminer78.letsmodreboot.client.handler.KeyInputEventHandler;
 import com.dminer78.letsmodreboot.handler.ConfigurationHandler;
 import com.dminer78.letsmodreboot.init.ModBlocks;
 import com.dminer78.letsmodreboot.init.ModItems;
@@ -32,7 +31,6 @@ public class LetsModReboot
         proxy.registerKeyBindings();
 
         ModItems.init();
-
         ModBlocks.init();
 
         LogHelper.info("Pre Initialization Complete!");
@@ -40,7 +38,6 @@ public class LetsModReboot
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
         Recipes.init();
         LogHelper.info("Initialization Complete!");
     }

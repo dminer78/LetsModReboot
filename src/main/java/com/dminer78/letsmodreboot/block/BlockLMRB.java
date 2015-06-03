@@ -16,7 +16,7 @@ public class BlockLMRB extends Block
     }
 
     public BlockLMRB() {
-        this(Material.rock);
+        this(Material.grass);
     }
 
     @Override

@@ -1,8 +1,8 @@
 package com.dminer78.letsmodreboot.creativetab;
 
-import com.dminer78.letsmodreboot.init.ModItems;
 import com.dminer78.letsmodreboot.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
 public class CreativeTabLMRB
@@ -11,7 +11,7 @@ public class CreativeTabLMRB
         @Override
         public Item getTabIconItem()
         {
-            return ModItems.mapleLeaf;
+            return Items.diamond_pickaxe;
         }
     };
 }

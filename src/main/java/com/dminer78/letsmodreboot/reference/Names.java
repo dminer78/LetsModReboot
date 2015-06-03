@@ -9,13 +9,12 @@ public final class Names
 
     public static final class Blocks
     {
-        public static final String FLAG = "flag";
-    }
-
-    public static final class Keys
-    {
-        public static final String CATEGORY = "keys.letsmodreboot.category";
-        public static final String CHARGE = "keys.letsmodreboot.charge";
-        public static final String RELEASE = "keys.letsmodreboot.release";
+        public static final String FLINT_BLOCK = "flintBlock";
+        public static final String FLESH_BLOCK = "fleshBlock";
+        public static final String ENDER_BLOCK = "enderBlock";
+        public static final String BONE_BLOCK = "boneBlock";
+        public static final String SPIDER_BLOCK = "spiderBlock";
+        public static final String TEAR_BLOCK = "tearBlock";
+        public static final String BLAZEROD_BLOCK = "blazerodBlock";
     }
 }
