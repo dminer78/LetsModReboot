@@ -3,11 +3,9 @@ package com.dminer78.letsmodreboot.proxy;
 import com.dminer78.letsmodreboot.client.settings.Keybindings;
 import cpw.mods.fml.client.registry.ClientRegistry;
 
-public class ClientProxy extends CommonProxy
-{
+public class ClientProxy extends CommonProxy {
     @Override
-    public void registerKeyBindings()
-    {
+    public void registerKeyBindings() {
         //ClientRegistry.registerKeyBinding(Keybindings.charge);
         //ClientRegistry.registerKeyBinding(Keybindings.release);
     }

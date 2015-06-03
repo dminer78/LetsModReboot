@@ -8,8 +8,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 
-public class BlockLMRB extends Block
-{
+public class BlockLMRB extends Block {
     public BlockLMRB(Material material) {
         super(material);
         this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);

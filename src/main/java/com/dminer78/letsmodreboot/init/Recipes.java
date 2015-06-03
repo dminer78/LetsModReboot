@@ -6,8 +6,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
 
-public class Recipes
-{
+public class Recipes {
     public static void init() { //TODO Add custom sounds to blocks
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.flintBlock), "sss", "sss", "sss", 's', Items.flint));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.fleshBlock), "sss", "sss", "sss", 's', Items.rotten_flesh));

@@ -8,8 +8,7 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class ItemLMRB extends Item
-{
+public class ItemLMRB extends Item {
     public ItemLMRB() {
         super();
         this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);

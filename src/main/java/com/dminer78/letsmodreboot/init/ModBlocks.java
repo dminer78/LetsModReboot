@@ -6,8 +6,7 @@ import com.dminer78.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
-public class ModBlocks
-{
+public class ModBlocks {
     public static final BlockLMRB flintBlock = new BlockFlint();
     public static final BlockLMRB fleshBlock = new BlockFlesh();
     public static final BlockLMRB enderBlock = new BlockEnder();
