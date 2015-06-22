@@ -13,6 +13,9 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.item.ItemStack;
+import net.minecraft.stats.Achievement;
+import net.minecraftforge.common.AchievementPage;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class LetsModReboot {
@@ -38,6 +41,7 @@ public class LetsModReboot {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         Recipes.init();
+
         LogHelper.info("Initialization Complete!");
     }
 
@@ -45,4 +49,5 @@ public class LetsModReboot {
     public void postInit(FMLPostInitializationEvent event) {
         LogHelper.info("Post Initialization Complete!");
     }
+
 }

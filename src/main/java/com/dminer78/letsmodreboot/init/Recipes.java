@@ -17,9 +17,17 @@ public class Recipes {
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.blazerodBlock), "sss", "sss", "sss", 's', Items.blaze_rod));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.magmacreamBlock), "sss", "sss", "sss", 's', Items.magma_cream));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.leatherBlock), "sss", "sss", "sss", 's', Items.leather));
-
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.leatherBlock), "sss", "sss", "sss", 's', Items.leather));
-
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.netherstarBlock), "sss", "sss", "sss", 's', Items.nether_star));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.porkchopBlock), "sss", "sss", "sss", 's', Items.porkchop));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.cooked_porkchopBlock), "sss", "sss", "sss", 's', Items.cooked_porkchop));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.beefBlock), "sss", "sss", "sss", 's', Items.beef));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.cooked_beefBlock), "sss", "sss", "sss", 's', Items.cooked_beef));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.chickenBlock), "sss", "sss", "sss", 's', Items.chicken));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.cooked_chickenBlock), "sss", "sss", "sss", 's', Items.cooked_chicken));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.potatoBlock), "sss", "sss", "sss", 's', Items.potato));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.poison_potatoBlock), "sss", "sss", "sss", 's', Items.poisonous_potato));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.cooked_potatoBlock), "sss", "sss", "sss", 's', Items.baked_potato));
 
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.flint, 9), ModBlocks.flintBlock));
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.rotten_flesh, 9), ModBlocks.fleshBlock));
@@ -30,5 +38,21 @@ public class Recipes {
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.blaze_rod, 9), ModBlocks.blazerodBlock));
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.magma_cream, 9), ModBlocks.magmacreamBlock));
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.leather, 9), ModBlocks.leatherBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.nether_star, 9), ModBlocks.netherstarBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.porkchop, 9), ModBlocks.porkchopBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.cooked_porkchop, 9), ModBlocks.cooked_porkchopBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.beef, 9), ModBlocks.beefBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.cooked_beef, 9), ModBlocks.cooked_beefBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.chicken, 9), ModBlocks.chickenBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.cooked_chicken, 9), ModBlocks.cooked_chickenBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.potato, 9), ModBlocks.potatoBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.poisonous_potato, 9), ModBlocks.poison_potatoBlock));
+        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.baked_potato, 9), ModBlocks.cooked_potatoBlock));
+
+        //TODO Make smelting blocks take one coal each
+        GameRegistry.addSmelting(ModBlocks.porkchopBlock, new ItemStack((ModBlocks.cooked_porkchopBlock), 1), 1F);
+        GameRegistry.addSmelting(ModBlocks.beefBlock, new ItemStack((ModBlocks.cooked_beefBlock), 1), 1F);
+        GameRegistry.addSmelting(ModBlocks.chickenBlock, new ItemStack((ModBlocks.cooked_chickenBlock), 1), 1F);
+        GameRegistry.addSmelting(ModBlocks.potatoBlock, new ItemStack((ModBlocks.cooked_potatoBlock), 1), 1F);
     }
 }
