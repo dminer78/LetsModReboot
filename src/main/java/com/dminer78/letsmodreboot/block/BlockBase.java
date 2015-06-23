@@ -8,13 +8,13 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 
-public class BlockLMRB extends Block {
-    public BlockLMRB(Material material) {
+public class BlockBase extends Block {
+    public BlockBase(Material material) {
         super(material);
         this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
     }
 
-    public BlockLMRB() {
+    public BlockBase() {
         this(Material.grass);
     }
 

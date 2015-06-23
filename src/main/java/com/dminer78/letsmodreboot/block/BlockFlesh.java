@@ -2,7 +2,7 @@ package com.dminer78.letsmodreboot.block;
 
 import com.dminer78.letsmodreboot.reference.Names;
 
-public class BlockFlesh extends BlockLMRB {
+public class BlockFlesh extends BlockBase {
     public BlockFlesh() {
         super();
         this.setBlockName(Names.Blocks.FLESH_BLOCK);

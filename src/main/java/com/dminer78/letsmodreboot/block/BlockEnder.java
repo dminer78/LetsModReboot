@@ -2,7 +2,7 @@ package com.dminer78.letsmodreboot.block;
 
 import com.dminer78.letsmodreboot.reference.Names;
 
-public class BlockEnder extends BlockLMRB {
+public class BlockEnder extends BlockBase {
     public BlockEnder() {
         super();
         this.setBlockName(Names.Blocks.ENDER_BLOCK);

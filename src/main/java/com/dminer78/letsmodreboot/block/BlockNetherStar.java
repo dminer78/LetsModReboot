@@ -2,7 +2,7 @@ package com.dminer78.letsmodreboot.block;
 
 import com.dminer78.letsmodreboot.reference.Names;
 
-public class BlockNetherStar extends BlockLMRB {
+public class BlockNetherStar extends BlockBase {
     public BlockNetherStar() {
         super();
         this.setBlockName(Names.Blocks.NETHERSTAR_BLOCK);

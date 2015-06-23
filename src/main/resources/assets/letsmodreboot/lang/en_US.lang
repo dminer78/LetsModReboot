@@ -7,7 +7,7 @@ keys.letsmodreboot.release=Release
 itemGroup.letsmodreboot=Dminer's Improvements
 
 # Items
-item.letsmodreboot:mapleLeaf.name=Maple Leaf of Awesomeness
+item.letsmodreboot:mapleLeaf.name=Pahimar's Maple Leaf of Awesomeness
 
 #Blocks
 tile.letsmodreboot:flintBlock.name=Block of Flint

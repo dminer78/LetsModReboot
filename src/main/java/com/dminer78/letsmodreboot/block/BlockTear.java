@@ -2,7 +2,7 @@ package com.dminer78.letsmodreboot.block;
 
 import com.dminer78.letsmodreboot.reference.Names;
 
-public class BlockTear extends BlockLMRB {
+public class BlockTear extends BlockBase {
     public BlockTear() {
         super();
         this.setBlockName(Names.Blocks.TEAR_BLOCK);

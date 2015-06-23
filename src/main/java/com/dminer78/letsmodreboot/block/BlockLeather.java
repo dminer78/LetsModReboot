@@ -2,7 +2,7 @@ package com.dminer78.letsmodreboot.block;
 
 import com.dminer78.letsmodreboot.reference.Names;
 
-public class BlockLeather extends BlockLMRB {
+public class BlockLeather extends BlockBase {
     public BlockLeather() {
         super();
         this.setBlockName(Names.Blocks.LEATHER_BLOCK);
